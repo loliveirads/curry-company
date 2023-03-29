@@ -274,7 +274,7 @@ df1 = df1.loc[df1['Road_traffic_density'].isin(traffic_options) , :]
 
 
 
-tab1 = st.tabs('Visão Gerencial')
+tab1,tab2,tab3 = st.tabs(['Visão Gerencial', '_', '_'])
 
 with tab1:
     with st.container():

@@ -135,11 +135,7 @@ def fig11(df1):
                 
     fig11.update_layout(main_config)
     fig11.update_xaxes(showticklabels=False)
-    fig11.update_layout(title='Com mais Entregas',
-                        title_x=0.2,
-                    title_y=0.9,
-                    plot_bgcolor = 'white',
-                    titlefont = {'family': 'Arial','size': 20,'color': 'black'}) # alterando #fonte do gráfico
+    
     return fig11
 
 
@@ -166,11 +162,7 @@ def fig12(df1):
                 
     fig12.update_layout(main_config)
     fig12.update_xaxes(showticklabels=False)               
-    fig12.update_layout(title=' Mais Bem avaliados',
-                       title_x=0.2,
-                    title_y=0.9,
-                    plot_bgcolor = 'white',
-                    titlefont = {'family': 'Arial','size': 20,'color': 'black'}) # alterando #fonte do gráfico
+    
     return fig12
 
 
