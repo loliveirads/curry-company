@@ -1,0 +1,314 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+
+
+.css-18e3th9 {
+    flex: 1 1 0%;
+    width: 100%;
+    padding: 0;
+    min-width: auto;
+    max-width: initial;
+    padding-left: 1rem;
+    padding-right: 1rem;
+    background-color: #e8e8e8;
+}
+
+.info-header img{
+    width: 40px;
+    height: 40px;
+    border-radius: 20px;
+
+}
+
+.css-18ni7ap {
+    position: fixed;
+    top: 0px;
+    left: 0px;
+    right: 0px;
+    height: 2.875rem;
+    background-color:white;
+    outline: none;
+    z-index: 999990;
+    visibility: hidden;
+    /* display: block; */
+}
+
+
+
+
+
+
+.css-1q1n0ol {
+    display: flex;
+    color: rgba(49, 51, 63, 0.4);
+    flex: 0 1 0%;
+    font-size: 14px;
+    visibility: hidden;
+    max-width: 46rem;
+    padding: 0.5rem 1rem;
+    width: 100%;
+}
+.css-18e3th9 {
+    flex: 1 1 0%;
+    width: 100%;
+    padding: 0;
+    min-width: auto;
+    max-width: initial;
+    
+    padding-left: 1rem;
+    padding-right: 1rem;
+    }
+
+/* scroll side bar */
+.css-gggys9 {
+    position: absolute;
+    width: 8px;
+    height: 100%;
+    cursor: col-resize;
+    z-index: 999995;
+    box-shadow: 6px 6px 6px #999;
+}
+
+
+/* Side Bar */
+.css-1vq4p4l {
+        padding: 3rem 1rem 1.5rem;
+        background-color:white;
+        box-shadow: 1px 1px #666;
+
+    }
+.css-6qob1r {
+        position: relative;
+        height: 100%;
+        width: 100%;
+        overflow: overlay;
+        background-color: white;}
+
+
+
+/* scroll sidebar */
+::-webkit-scrollbar {
+        background: rgb(255, 75, 75);
+        border-radius: 100px;
+        height: 3px;
+        width: 4px;
+    }
+
+/* 1 container */
+
+
+.css-1ab9dzl {
+    display: flex;
+    flex-wrap: wrap;
+    -webkit-box-flex: 1;
+    flex-grow: 1;
+    -webkit-box-align: stretch;
+    align-items: stretch;
+    gap: 1rem;
+
+}
+
+.css-vb7swd {
+    width: 222px;
+    position: relative;
+    display: flex;
+    flex: 1 1 0%;
+    flex-direction: column;
+    gap: 1rem;
+    background: white;
+    border-radius: 20px;
+    box-shadow: 1px 1px #666;
+}
+
+/* 1 numero da metricas */
+
+.css-50ug3q {
+    font-size: 2.25rem;
+    padding-bottom: 0.25rem;
+    text-align: center;
+    padding: 0 2rem;
+    
+    overflow-wrap: normal;
+    text-overflow: ellipsis;
+    width: 100%;
+    overflow: initial;
+    white-space: nowrap;
+    font-family: "Source Sans Pro", sans-serif;
+    line-height: normal;
+    vertical-align: middle;
+    display: flex;
+    flex-direction: column;
+    -webkit-box-align: center;
+    align-items: center;
+    
+}
+
+
+/* Titulo da metricas */
+
+.css-1offfwp p {
+    word-break: break-word;
+    margin: 0.2rem;
+    text-align: center;
+}
+/* Delta da metricas */
+
+.css-wnm74r {
+    font-size: 1rem;
+    display: flex;
+    flex-direction: row;
+    -webkit-box-align: center;
+    align-items: center;
+    font-weight: 400;
+    padding: 0 3rem;
+}
+
+/* containers metricas */
+
+
+.css-1l269bu {
+    width: 100%;
+    flex: 1 1 calc(16.6667% - 1rem);
+        position: relative;
+        display: flex;
+        flex: 1 1 0%;
+        flex-direction: column;
+        gap: 0;
+        background-color: white;
+        border-radius: 10px;
+        box-shadow: 1px 1px #999;
+    }
+
+
+
+/* Botoes das Tabs */
+
+
+.st-cj{    
+    cursor: pointer;
+    width: 150px;
+    border-radius: 20px;
+    box-shadow: 1px 1px 6px #666;
+
+}
+
+
+/* itens das metricas */
+
+.css-50ug3q {
+    overflow-wrap: normal;
+    text-overflow: ellipsis;
+    width: 100%;
+    overflow: hidden;
+    white-space: nowrap;
+    font-family: "Source Sans Pro", sans-serif;
+    line-height: normal;
+    vertical-align: middle;
+    display: flex;
+    flex-direction: column;
+    -webkit-box-align: center;
+    align-items: center;
+    padding: 0 1rem;
+}
+
+/* Graficos */
+
+.js-plotly-plot .plotly .main-svg {
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    pointer-events: none;
+    border-radius: 10px;
+    box-shadow: 6px 6px 6px #999;
+}
+
+
+/* Metricas visao entregadores*/
+
+.css-1fjr796 {
+    width: calc(33.3333% - 4rem);
+    flex: 1 1 calc(33.3333% - 4rem);
+    background-color: white;
+    box-shadow: 6px 6px 6px #999;
+    border-radius: 10px;
+}
+
+
+/* Markdowns*/
+
+.css-10trblm {
+    position: relative;
+    flex: 1 1 0%;
+    margin-left: calc(3rem);
+    text-align: center;
+}
+
+
+/* primeiros containers visao entregadores*/
+.css-1r6slb0 {
+    width: calc(33.3333% - 1rem);
+    flex: 1 1 calc(33.3333% - 1rem);
+    background-color: white;
+    box-shadow: 6px 6px 6px  #999;
+    border-radius: 10px;
+}
+
+
+
+h6 {
+    font-family: "Source Sans Pro", sans-serif;
+    font-weight: 600;
+    color: rgb(49, 51, 63);
+    padding: 0px 1rem 0px 1rem;
+    margin-top: 1rem;
+    line-height: 1.2;}
+
+
+/* markdown separador*/
+
+hr {
+        margin: 0.7rem 0px;
+        padding: 0px;
+        color: inherit;
+        background-color: transparent;
+        border-top: none;
+        border-right: none;
+        border-left: none;
+        border-image: initial;
+        border-bottom: 1px solid rgba(49, 51, 63, 0.2);
+    }
+
+
+
+h5 {
+        font-family: "Source Sans Pro", sans-serif;
+        font-weight: 600;
+        color: rgb(255 255 255);
+        padding: 0px 0px 1rem;
+        margin: 0px;
+        line-height: 1.2;
+        background: #062645;
+        margin-bottom: 1rem;
+        padding-top: 1rem;
+        border-radius: 10px;
+        text-align: center;}
+    
+h2 {
+            font-family: "Source Sans Pro", sans-serif;
+            font-weight: 600;
+            color: rgb(255 255 255);
+            letter-spacing: -0.005em;
+            padding: 1rem 0px;
+            margin: 0px;
+            border-radius: 20px;
+            background-color: #062645;
+            text-align: center;
+        }
+
+
+
