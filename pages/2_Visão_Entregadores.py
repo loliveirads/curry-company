@@ -187,9 +187,9 @@ with open('assets/css2.css') as f:
 st.header('Marketplace - Visão Entregadores')
 st.markdown( """---""" )
 
-image_path = 'C:/Users/luizf/OneDrive/Documentos/repos/FTC/'
+#image_path = 'C:/Users/luizf/OneDrive/Documentos/repos/FTC/'
 
-image = Image.open(image_path + 'logo.jpg')
+image = Image.open('logo.jpg')
 st.sidebar.markdown('### Cury Company')
 st.sidebar.image(image, width=200)
 
