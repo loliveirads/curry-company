@@ -136,10 +136,10 @@ def fig11(df1):
     fig11.update_layout(main_config)
     fig11.update_xaxes(showticklabels=False)
     fig11.update_layout(title='Com mais Entregas',
-                        title_x=0.5,
-                        title_y=0.7,
-                        plot_bgcolor = 'white',
-                        titlefont = {'family': 'Arial','size': 22,'color': 'black'}) # alterando #fonte do gráfico
+                        title_x=0.2,
+                    title_y=0.9,
+                    plot_bgcolor = 'white',
+                    titlefont = {'family': 'Arial','size': 20,'color': 'black'}) # alterando #fonte do gráfico
     return fig11
 
 
@@ -167,10 +167,10 @@ def fig12(df1):
     fig12.update_layout(main_config)
     fig12.update_xaxes(showticklabels=False)               
     fig12.update_layout(title=' Mais Bem avaliados',
-                       title_x=0.5,
-                       title_y=0.7,
-                       plot_bgcolor = 'white',
-                       titlefont = {'family': 'Arial','size': 22,'color': 'black'}) # alterando #fonte do gráfico
+                       title_x=0.2,
+                    title_y=0.9,
+                    plot_bgcolor = 'white',
+                    titlefont = {'family': 'Arial','size': 20,'color': 'black'}) # alterando #fonte do gráfico
     return fig12
 
 
@@ -311,7 +311,7 @@ with st.container():
             media = aux5['media_entregas'].mean()
             diferença = ( ultima_hora / media).round(3)
             diferença_percentual=((diferença - 1)*100).round(3)
-            st.metric(f'Ultima hora', 2 ,f'{diferença_percentual}%')
+            st.metric(f'Ultima hora',ultima_hora ,f'{diferença_percentual}%')
             
 
     st.markdown( """---""" )

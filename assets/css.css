@@ -316,4 +316,41 @@ h2 {
         text-align: center;
     }
 
+/* Numeros da metricas visao restaurante dentro do render*/
 
+    .css-1wivap2 {
+        overflow-wrap: normal;
+        text-overflow: ellipsis;
+        width: 100%;
+        overflow: hidden;
+        white-space: nowrap;
+        font-family: "Source Sans Pro", sans-serif;
+        line-height: normal;
+        vertical-align: middle;
+        text-align: center;
+    }
+
+/* titulos da metricas visao entregadores dentro do render*/
+
+    .css-wvv94f {
+        font-size: 14px;
+        color: rgb(49, 51, 63);
+        height: auto;
+        min-height: 1.5rem;
+        vertical-align: middle;
+        flex-direction: row;
+        -webkit-box-align: center;
+        align-items: center;
+        margin-bottom: 0px;
+        display: grid;
+        visibility: visible;
+        text-align: center;
+    }
+        /*fundo da pagina do render*/
+.css-z5fcl4 {
+    width: 100%;
+    padding: 1rem 1rem;
+    min-width: auto;
+    max-width: initial;
+    background-color: #fff3f3;
+}

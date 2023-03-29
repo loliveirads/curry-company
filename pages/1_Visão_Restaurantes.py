@@ -121,10 +121,10 @@ def fig7(df1):
         
         fig7.update_layout(main_config)
         fig7.update_layout(title=f'Distribuiçao da Distancia Média Por Cidade',
-                    title_x=0.5,
-                    title_y=0.7,
+                    title_x=0.2,
+                    title_y=0.9,
                     plot_bgcolor = 'white',
-                    titlefont = {'family': 'Arial','size': 32,'color': 'black'}) # alterando #fonte do gráfico                
+                    titlefont = {'family': 'Arial','size': 20,'color': 'black'}) # alterando #fonte do gráfico                
         return fig7
         
 def fig8(df1):
@@ -151,10 +151,10 @@ def fig8(df1):
             
     fig8.update_layout(main_config)
     fig8.update_layout(title='Por Cidade',
-                       title_x=0.5,
-                       title_y=0.7,
-                       plot_bgcolor = 'white',
-                       titlefont = {'family': 'Arial','size': 22,'color': 'black'}) 
+                       title_x=0.2,
+                    title_y=0.9,
+                    plot_bgcolor = 'white',
+                    titlefont = {'family': 'Arial','size': 20,'color': 'black'}) # alterando #fonte do gráfico 
     return fig8
 
 
@@ -180,10 +180,10 @@ def fig9(df1):
             
     fig9.update_layout(main_config)
     fig9.update_layout(title=' Por tipo de Cidade e Transito',
-                       title_x=0.5,
-                       title_y=0.7,
-                       plot_bgcolor = 'white',
-                       titlefont = {'family': 'Arial','size': 22,'color': 'black'}) # alterando #fonte do gráfico                            
+                       title_x=0.2,
+                    title_y=0.9,
+                    plot_bgcolor = 'white',
+                    titlefont = {'family': 'Arial','size': 20,'color': 'black'}) # alterando #fonte do gráfico                            
     return fig9
 
 def fig10(df1):
@@ -213,10 +213,10 @@ def fig10(df1):
         
         fig10.update_layout(main_config)
         fig10.update_layout(title_text='Por Tipo de Cidade e Tipo de Pedido',
-                            title_x=0.5,
-                            title_y=0.5,
-                            plot_bgcolor = 'white',
-                            titlefont = {'family': 'Arial','size': 22,'color': 'black'}) # alterando #fonte do gráfico
+                            title_x=0.2,
+                    title_y=0.9,
+                    plot_bgcolor = 'white',
+                    titlefont = {'family': 'Arial','size': 20,'color': 'black'}) # alterando #fonte do gráfico
         
         return fig10
 # ========================
@@ -274,7 +274,7 @@ df1 = df1.loc[df1['Road_traffic_density'].isin(traffic_options) , :]
 
 
 
-tab1, tab2, tab3 = st.tabs(['Visão Gerencial', '_', '_'])
+tab1 = st.tabs('Visão Gerencial')
 
 with tab1:
     with st.container():
@@ -290,7 +290,7 @@ with tab1:
         with col2:
             with st.container():
                 distancia_media = round(df1['distance'].mean(),2)
-                st.write('Distancia Média Metros')
+                st.write('Distancia Média em Metros')
 
                 st.metric(f'', distancia_media )
 
